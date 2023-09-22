@@ -1,6 +1,6 @@
 /* eslint-disable jest/prefer-expect-assertions */
 const { expect } = require('chai');
-const getPayementTokenFromAPI = require('./6-payment_token');
+const getPaymentTokenFromAPI = require('./6-payment_token');
 
 describe('getPaymentTokenFromAPI', () => {
   it('getPaymentTokenFromAPI(success), where success == true', (done) => {
