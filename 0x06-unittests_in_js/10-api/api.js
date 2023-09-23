@@ -3,6 +3,9 @@ const express = require('express');
 const app = express();
 const PORT = 7865;
 
+// body-parser middleware for express
+app.use(express.json());
+
 app.get('/', (_, res) => {
   res.send('Welcome to the payment system');
 });
