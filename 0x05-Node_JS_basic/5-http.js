@@ -1,4 +1,3 @@
-/* eslint-disable jest/require-hook */
 const http = require('http');
 
 const args = process.argv.slice(2);
